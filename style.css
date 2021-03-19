@@ -1,0 +1,81 @@
+body {
+  background: #262626;
+  color: #4AD0EC;
+  font-family: Helvetica;
+  letter-spacing: 0.15em;
+  width: 600px;
+  margin: 1rem ;
+}
+
+h1 {
+  font-weight: 300;
+  color: #FFF;
+  margin: 0;
+  margin-top: 35px;
+  padding: 0;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-posters: center;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.container p, .container h1 {
+  width: 100%
+}
+
+.title {
+  font-size: 60px;
+}
+
+
+.category {
+  font-size: 50px;
+  margin-top: 14px;
+}
+.focus-info {
+  color: #FFF;
+}
+
+.posters {
+  margin-top: 60px;
+  display: flex;
+}
+
+.poster {
+  position: relative;
+  width: 100%;
+  margin-right: 14px;
+  box-sizing: content-box;
+}
+
+.poster img{
+  width: 200px;
+  height: 326px;
+}
+
+.btn{
+  float: right;
+ 
+}
+
+:focus {
+  outline: 2px solid #4AD0EC;
+  width: auto;
+}
+
+
+
+ul li a{
+  color: aliceblue;
+}
